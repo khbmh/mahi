@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Exo 2", sans-serif;
+  height: 100%;
+  background-color: #222328;
+  width: 100%;
+  color: #6f7898;
+}
+
+.hero {
+  position: relative;
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #fff; */
+  margin: 0 auto;
+}
+.images {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 180px;
+  margin: 50px 0px 0px -100px;
+}
+img {
+  width: 230px;
+  margin: 20px;
+}
+.one {
+  border-radius: 47px 8px 19px 3px;
+}
+.two {
+  border-radius: 19px 19px 5px 5px;
+  margin-left: -2px;
+}
+.three {
+  border-radius: 3px 19px 47px 8px;
+  position: absolute;
+  margin: 270px;
+}
+
+.upper {
+  margin: 20px 10px 180px 130px;
+  font-weight: lighter;
+}
+p{
+  font-size: 17px;
+
+}
+.rotate {
+  transform: rotate(0deg);
+  height: 140px;
+  width: 327px;
+  margin: 310px 0px 0px 10px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+.line {
+  height: 3px;
+  width: 73px;
+  margin: 3px 3px;
+  background-color: #687192;
+}
+.rotate h5{
+  margin-top: 5px;
+}
+.down {
+  margin: 150px 9px 15px 20px;
+}
+.dots {
+  display: flex;
+  height: 30px;
+  width: 70px;
+  margin-top: 170px;
+}
+.dot {
+  height: 13px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #687192;
+  margin: 5px;
+}
+.location{
+  margin: 15px 0 35px 0;
+}
+
+.contact1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 80px 0 10px 0;
+}
+.contact2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0 60px 0;
+}
+.contact3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0 80px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #a0a8c7;
+}
+a:hover {
+  /* text-decoration: line-through; */
+  color: #687192;
+}
+.mail:hover{
+  text-decoration: underline;
+}
