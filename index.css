@@ -12,6 +12,7 @@ body {
   background-color: #222328;
   width: 100%;
   color: #6f7898;
+  scroll-behavior: smooth;
 }
 
 .hero {
